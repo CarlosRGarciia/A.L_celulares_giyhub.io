@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.L celulares y computadores</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <div>
+            <span><img width="100" src="./Imagenes/logo.png" alt="logo empresa"></span>
+            <h1>A.L celulares y computadores.</h1>
+        </div>
+        <button>Contactanos</button>
+
+        <nav>
+            <ul>
+                <li><a href="#descripcion">Descripción</a></li>
+                <li><a href="#precio">Precio</a></li>
+                <li><a href="#compra">Comprar</a></li>
+                <li><a href="#servicios">servicios</a></li>
+                <li><a href="#ubicacion">ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="descripcion">
+            <h2>Celulares  y accesorios</h2>
+            <p>Tenemos los mejores celulares y accesorios del mercado a un excelente precio para darte la mejor atención que podrás recibir,
+                también contamos con el mejor servicio de reparación de equipos Android, Apple, tablets y PC.</p>
+            <div>
+                <img width="200" src="./Imagenes/Appletouch.png" alt="Appletouch">
+                <img width="200" src="./Imagenes/audifonos.png" alt="celulares">
+                <img width="200" src="./Imagenes/cel.png" alt="Accesorios">
+            </div>
+        </section>
+
+        <section id="precio">
+            <h2>Precios de los artículos </h2>
+            <p>Los precios de los artículos son dependiendo de la referencia que escojas. A continuación, se encuentran unas listas de algunas referencias.</p>
+            <div>
+                <img width="200" src="./Imagenes/samsung.png" alt="lista de precios Samsung">
+                <img width="200" src="./Imagenes/apple.png" alt="lista de precios Apple">
+            </div>
+        </section>
+
+        <section id="compra">
+            <h2>Comprar</h2>
+            
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo">
+                </div>
+                <div>
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad" name="cantidad" min="1" max="10">
+                </div>
+                <button type="submit">Comprar</button>
+                <section id="contacto">
+                  <h2>Contacto</h2>
+                  <form action="#" method="POST">
+                     <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                     </div>
+                     <div>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                     </div>
+                     <div>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                     </div>
+                     <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                     </div>
+                     <button type="submit">Enviar</button>
+                  </form>
+               </section>
+               
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Luis Carlos Ruiz Garcia</p>
+        <div>
+            <video width="320" height="240" controls>
+                <source src="./Imagenes/Celular Huawei P9 Presentacion Oficial.mp4" type="video/mp4">
+            </video>
+        </div>
+    </footer>
+</body>
+</html>
+
